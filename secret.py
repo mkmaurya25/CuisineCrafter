@@ -1,2 +1,2 @@
-groq_api_key = "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"
-serpapi_api_key = "f78c164731abb8ab15297c4ee98b3bc9c236945b625dfa3dde062e0d8ece4de2"
+groq_api_key = "********"
+serpapi_api_key = "*******"
