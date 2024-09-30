@@ -1,7 +1,7 @@
 import streamlit as st
 import helper_v2
 
-st.title("Restaurant Name Generator")
+st.title("CuisineCrafter: Restaurant Name & Menu Designer")
 
 cuisine = st.sidebar.selectbox("Pick a Cuisine", ("Indian", "Italian", "Mexican", "Arabic", "American"))
 
