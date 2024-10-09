@@ -17,3 +17,4 @@ title: "Cusine Crafter"
 This page contains a short description and project links to various Data Science prjoects.
 
 ![Output](images/output.gif)  <!-- Adjust path accordingly -->
+![Output](../assets/images/output.gif)
