@@ -6,6 +6,8 @@
 
 CuisineCrafter is a user-friendly app that harnesses the power of AI to generate restaurant names and menus based on a selected cuisine. With the ability to instantly create themed names and curated menu items, CuisineCrafter is perfect for restaurateurs, entrepreneurs, and food enthusiasts looking for inspiration in the culinary industry.
 
+![output](media/output.gif)
+
 ### Features
 - Generates creative, cuisine-specific restaurant names.
 - Suggests menu items for the generated restaurant names.
