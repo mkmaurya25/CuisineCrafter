@@ -1,0 +1,5 @@
+theme: jekyll-theme-cayman
+title: "My Title"
+description: "Description"
+github:
+  is_project_page: false
