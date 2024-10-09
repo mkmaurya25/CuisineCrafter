@@ -16,6 +16,6 @@ title: "Cusine Crafter"
 # Welcome to My Portfolio
 This page contains a short description and project links to various Data Science prjoects.
 
-[](media/output.gif)
+![](media/output.gif)
 
 [CuisineCrafter](https://github.com/mkmaurya25/CuisineCrafter)
