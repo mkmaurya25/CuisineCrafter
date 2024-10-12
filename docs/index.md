@@ -80,3 +80,16 @@ CuisineCrafter is built with the following technologies:
 CuisineCrafter stands as a testament to the potential of generative AI in the culinary industry, allowing users to explore unique restaurant concepts and menu items effortlessly. Whether you're an aspiring restaurateur or a culinary enthusiast, this tool can provide you with the inspiration needed to make your culinary vision a reality.
 
 Feel free to explore the repository and start crafting your culinary ideas with CuisineCrafter!
+
+```python
+if process_url_clicked:
+    # Load data from URLs
+    loader = UnstructuredURLLoader(urls=urls)
+    data = loader.load()
+
+    # Split data into chunks
+    text_splitter = RecursiveCharacterTextSplitter(
+        separators=['\n\n', '\n', '.', ','],
+        chunk_size=1000
+    )
+    docs = text_splitter.split_documents(data)
