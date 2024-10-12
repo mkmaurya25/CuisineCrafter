@@ -81,3 +81,16 @@ CuisineCrafter stands as a testament to the potential of generative AI in the cu
 
 Feel free to explore the repository and start crafting your culinary ideas with CuisineCrafter!
 
+```python
+if process_url_clicked:
+    # Load data from URLs
+    loader = UnstructuredURLLoader(urls=urls)
+    data = loader.load()
+
+    # Split data into chunks
+    text_splitter = RecursiveCharacterTextSplitter(
+        separators=['\n\n', '\n', '.', ','],
+        chunk_size=1000
+    )
+    docs = text_splitter.split_documents(data)
+```
